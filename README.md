@@ -22,15 +22,12 @@ Clone the repo:
 
 ```bash
 
-git clone https://github.com/scottjason/ts-boilerplate-graphql-mongodb.git
+git clone https://github.com/mylifenp/graphql-bp.git
 
 ```
 
 Then cd into the root directory and run `npm install`.
 
-[Create a free MongoDB Atlas account](https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/) and deploy a free cluster, generate your Mongo connection uri.
-
-Once you have your Mongo uri, create a .env file in the root directory of the repo and copy and paste the below, then enter in the values (the prod origin isn't needed for development):
 
 ```bash
 DEV_ORIGIN=http://localhost:8080
@@ -51,7 +48,7 @@ Once complete, run `npm run dev` to start development and your browser should op
 
 MIT License
 
-Copyright (c) 2022 Scott Jason
+Copyright (c) 2023 Amit Shah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
